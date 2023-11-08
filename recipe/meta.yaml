@@ -1,5 +1,5 @@
 {% set name = "excitingtools" %}
-{% set version = "1.2.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/excitingtools-{{ version }}.tar.gz
-  sha256: cd1f6cf62e7e4b6a9b1d1de2fd26e0d9e3e032f5082c02be536aef5be3ae3dd2
+  sha256: b70d0e6dab3c6788a2c5dfe8355215407be521ef1f50ee8146d3c0071796aac6
 
 build:
   noarch: python
